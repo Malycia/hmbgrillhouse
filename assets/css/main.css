@@ -1567,10 +1567,10 @@
 		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5, inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
 	}
 
-		#banner-wrapper .inner {
+		/* #banner-wrapper .inner {
 			background: url("../../images/banner.jpg");
 			background-size: cover;
-		}
+		} */
 
 		#banner-wrapper p {
 			text-align: center;
