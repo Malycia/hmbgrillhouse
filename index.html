@@ -104,18 +104,10 @@
 									<!-- Post -->
 										<article class="box post">
 											<header>
-												<h2><a href="#">I don’t want to say <strong>it’s the aliens</strong> ...<br />
-												but it’s the aliens.</a></h2>
+												<h2><a href="#">Find us</a></h2>
 											</header>
-											<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
 											<div id="map"></div>
-
-											<ul class="actions">
-												<li><a href="#" class="button icon fa-file">Continue Reading</a></li>
-											</ul>
 										</article>
-
-								
 
 								</div>
 
@@ -126,91 +118,30 @@
 										<section>
 											<ul class="divided">
 												<li>
-
 													<!-- Excerpt -->
 														<article class="box excerpt">
 															<header>
-																<span class="date">July 30</span>
-																<h3><a href="#">Just another post</a></h3>
+																<h3><a href="#">Our adress</a></h3>
 															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
+															<ul>
+															<li>
+																Steenstraat 60<br />
+																1800 Vilvorde<br />
+																Belgium
+															</li>
+															<li>
+																+32 2 269 99 32
+															</li>
+															<li><div class="12u">
+																<a href="#contact" class="form-button-submit button">Contact us</a>
+															</div></li>
+														</ul>
 														</article>
-
 												</li>
-												<li>
-
-													<!-- Excerpt -->
-														<article class="box excerpt">
-															<header>
-																<span class="date">July 28</span>
-																<h3><a href="#">And another post</a></h3>
-															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
-														</article>
-
-												</li>
-												<li>
-
-													<!-- Excerpt -->
-														<article class="box excerpt">
-															<header>
-																<span class="date">July 24</span>
-																<h3><a href="#">One more post</a></h3>
-															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
-														</article>
-
-												</li>
-											</ul>
-										</section>
-
-									<!-- Highlights -->
-										<section>
-											<ul class="divided">
-												<li>
-
-													<!-- Highlight -->
-														<article class="box highlight">
-															<header>
-																<h3><a href="#">Something of note</a></h3>
-															</header>
-															<a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
-															<p>Phasellus  sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
-															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
-															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
-															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
-															<ul class="actions">
-																<li><a href="#" class="button icon fa-file">Learn More</a></li>
-															</ul>
-														</article>
-
-												</li>
-												<li>
-
-													<!-- Highlight -->
-														<article class="box highlight">
-															<header>
-																<h3><a href="#">Something of less note</a></h3>
-															</header>
-															<a href="#" class="image left"><img src="images/pic07.jpg" alt="" /></a>
-															<p>Phasellus  sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
-															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
-															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
-															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
-															<ul class="actions">
-																<li><a href="#" class="button icon fa-file">Learn More</a></li>
-															</ul>
-														</article>
-
-												</li>
-											</ul>
+											</ul>	
 										</section>
 
 								</div>
-
 						</div>
 					</div>
 				</div>
@@ -247,7 +178,7 @@
 								</section>
 							</div>
 							<div class="6u 12u(mobile)">
-								<section>
+								<section id="contact">
 									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
 									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
 									leo nibh, rutrum eu malesuada.</p>
@@ -307,21 +238,10 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-			<script>
-	 function initMap() {
-		 var uluru = {lat: -25.363, lng: 131.044};
-		 var map = new google.maps.Map(document.getElementById('map'), {
-			 zoom: 4,
-			 center: uluru
-		 });
-		 var marker = new google.maps.Marker({
-			 position: uluru,
-			 map: map
-		 });
-	 }
- </script>
+			<script src="assets/js/googlemaps.js" ></script>
+
  <script async defer
- src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo2EP74UQNj3uq_flBNxBgK-bf6OCmOtA&callback=initMap">
  </script>
 
 
