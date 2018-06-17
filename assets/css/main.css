@@ -24,6 +24,7 @@
 
 	body {
 		line-height: 1;
+
 	}
 
 	ol, ul {
@@ -1547,10 +1548,16 @@
 /* Wrappers */
 
 	#header-wrapper {
+		height:100vh;
 		position: relative;
 		background: #fff;
+		/* background-color: #fffcfc;
+background-image: url(http://www.transparenttextures.com/patterns/purty-wood.png); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 		text-align: center;
 	}
+
+
 
 		#header-wrapper p {
 			text-align: center;
@@ -1768,6 +1775,11 @@
 /* Desktop */
 
 	@media screen and (min-width: 737px) {
+
+		.headerIllustration{
+			margin-top: 20px;
+			height: 40%;
+		}
 
 		/* Basic */
 
